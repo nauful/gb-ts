@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    color: #BBB;
+    background-color: black;
+    font-family: monospace;
+}
+
+.flex-grow {
+    flex-grow: 1;
+}
+
+.body-container {
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.container-content {
+    display: flex;
+    flex: 0;
+
+    padding: 8px 8px;
+    width: 100%;
+}
+
+.gb-canvas-container {
+    display: inline-block;
+    margin: 8px 8px;
+
+    >div, >canvas {
+        display: block;
+    }
+}
+
+.loading {
+    margin-top: 1em;
+}
+
+.loaded {
+    display: none;
+}
