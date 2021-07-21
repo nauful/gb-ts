@@ -4,6 +4,8 @@
 
 A Gameboy emulator written in modern TypeScript using WebGL for rendering.
 
+[Online demo](http://nauful.com/pages/gb/)
+
 ![](Screenshot.png)
 
 #### Features
